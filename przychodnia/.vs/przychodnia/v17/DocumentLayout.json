@@ -1,14 +1,55 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia%20g.3\\przychodnia\\",
+  "WorkspaceRootPath": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia%20g.3\\przychodnia\\przychodnia\\forms\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|c:\\users\\jakub\\onedrive\\pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|solutionrelative:przychodnia\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|c:\\users\\jakub\\onedrive\\pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\forms\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|solutionrelative:przychodnia\\forms\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|c:\\users\\jakub\\onedrive\\pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\forms\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|solutionrelative:przychodnia\\forms\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|c:\\users\\jakub\\onedrive\\pulpit\\testowanie\\przychodnia%20g.3\\przychodnia\\przychodnia\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jakub\\AppData\\Local\\Temp\\.vsdbgsrc\\db52b5d075c11dfa0df2abc93c647000006603a3c116e2143858a98609a1a3a0\\SqlConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|c:\\users\\jakub\\onedrive\\pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|solutionrelative:przychodnia\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|c:\\users\\jakub\\onedrive\\pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\forms\\login\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|solutionrelative:przychodnia\\forms\\login\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|c:\\users\\jakub\\onedrive\\pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\helpers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|solutionrelative:przychodnia\\helpers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|c:\\users\\jakub\\onedrive\\pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
       "RelativeMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|solutionrelative:przychodnia\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jakub\\AppData\\Local\\Temp\\.vsdbgsrc\\606540a67d33614901525aae8f959e08316ebab516b59191fd8f820ea49213e7\\DataRow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|c:\\users\\jakub\\onedrive\\pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|solutionrelative:przychodnia\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|c:\\users\\jakub\\onedrive\\pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\helpers\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|solutionrelative:przychodnia\\helpers\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|c:\\users\\jakub\\onedrive\\pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3D0F33C9-2BCC-4EA2-8AE9-66ACE2321FDC}|przychodnia\\przychodnia.csproj|solutionrelative:przychodnia\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jakub\\AppData\\Local\\Temp\\.vsdbgsrc\\b41adcd98110c327811f21f3ad97362dfc0557c72324c18734a7f0d0538134f2\\DbConnectionOptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +59,174 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\App.config",
+              "RelativeDocumentMoniker": "przychodnia\\App.config",
+              "ToolTip": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\App.config",
+              "RelativeToolTip": "przychodnia\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-10T15:35:23.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Settings.settings",
-              "DocumentMoniker": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia%20g.3\\przychodnia\\przychodnia\\Settings.settings",
+              "DocumentMoniker": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Settings.settings",
               "RelativeDocumentMoniker": "przychodnia\\Settings.settings",
-              "ToolTip": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia%20g.3\\przychodnia\\przychodnia\\Settings.settings",
+              "ToolTip": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Settings.settings",
               "RelativeToolTip": "przychodnia\\Settings.settings",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2024-03-09T11:10:13.683Z",
+              "WhenOpened": "2024-03-10T15:48:14.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataBaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Helpers\\DataBaseHelper.cs",
+              "RelativeDocumentMoniker": "przychodnia\\Helpers\\DataBaseHelper.cs",
+              "ToolTip": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Helpers\\DataBaseHelper.cs",
+              "RelativeToolTip": "przychodnia\\Helpers\\DataBaseHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:46:08.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Forms\\Login\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "przychodnia\\Forms\\Login\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Forms\\Login\\Login.Designer.cs",
+              "RelativeToolTip": "przychodnia\\Forms\\Login\\Login.Designer.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAvwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:21:04.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "przychodnia\\Settings.Designer.cs",
+              "ToolTip": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Settings.Designer.cs",
+              "RelativeToolTip": "przychodnia\\Settings.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:16:31.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SqlConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\AppData\\Local\\Temp\\.vsdbgsrc\\db52b5d075c11dfa0df2abc93c647000006603a3c116e2143858a98609a1a3a0\\SqlConnection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\db52b5d075c11dfa0df2abc93c647000006603a3c116e2143858a98609a1a3a0\\SqlConnection.cs",
+              "ToolTip": "C:\\Users\\Jakub\\AppData\\Local\\Temp\\.vsdbgsrc\\db52b5d075c11dfa0df2abc93c647000006603a3c116e2143858a98609a1a3a0\\SqlConnection.cs[Tylko do odczytu]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\db52b5d075c11dfa0df2abc93c647000006603a3c116e2143858a98609a1a3a0\\SqlConnection.cs[Tylko do odczytu]",
+              "ViewState": "AQIAAEgGAAAAAAAAAAAEwF0GAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:56:56.554Z",
+              "EditorCaption": "[Tylko do odczytu]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Forms\\Login\\Login.cs",
+              "RelativeDocumentMoniker": "przychodnia\\Forms\\Login\\Login.cs",
+              "ToolTip": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Forms\\Login\\Login.cs [Projekt]",
+              "RelativeToolTip": "przychodnia\\Forms\\Login\\Login.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:00:30.273Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Forms\\Login\\Login.cs",
+              "RelativeDocumentMoniker": "przychodnia\\Forms\\Login\\Login.cs",
+              "ToolTip": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Forms\\Login\\Login.cs",
+              "RelativeToolTip": "przychodnia\\Forms\\Login\\Login.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:00:41.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cs [Projekt]",
-              "DocumentMoniker": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia%20g.3\\przychodnia\\przychodnia\\Forms\\Login\\Login.cs",
-              "RelativeDocumentMoniker": "przychodnia\\Forms\\Login\\Login.cs",
-              "ToolTip": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia%20g.3\\przychodnia\\przychodnia\\Forms\\Login\\Login.cs [Projekt]",
-              "RelativeToolTip": "przychodnia\\Forms\\Login\\Login.cs [Projekt]",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "przychodnia\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Service\\UserService.cs",
+              "RelativeToolTip": "przychodnia\\Service\\UserService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T11:03:03.858Z",
-              "EditorCaption": " [Projekt]"
+              "WhenOpened": "2024-03-10T16:09:06.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataRow.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\AppData\\Local\\Temp\\.vsdbgsrc\\606540a67d33614901525aae8f959e08316ebab516b59191fd8f820ea49213e7\\DataRow.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\606540a67d33614901525aae8f959e08316ebab516b59191fd8f820ea49213e7\\DataRow.cs",
+              "ToolTip": "C:\\Users\\Jakub\\AppData\\Local\\Temp\\.vsdbgsrc\\606540a67d33614901525aae8f959e08316ebab516b59191fd8f820ea49213e7\\DataRow.cs[Tylko do odczytu]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\606540a67d33614901525aae8f959e08316ebab516b59191fd8f820ea49213e7\\DataRow.cs[Tylko do odczytu]",
+              "ViewState": "AQIAAPsCAAAAAAAAAAAEwEMDAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T16:35:11.731Z",
+              "EditorCaption": "[Tylko do odczytu]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Models\\User.cs",
+              "RelativeDocumentMoniker": "przychodnia\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Models\\User.cs",
+              "RelativeToolTip": "przychodnia\\Models\\User.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAswDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T16:13:06.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DbConnectionOptions.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\AppData\\Local\\Temp\\.vsdbgsrc\\b41adcd98110c327811f21f3ad97362dfc0557c72324c18734a7f0d0538134f2\\DbConnectionOptions.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b41adcd98110c327811f21f3ad97362dfc0557c72324c18734a7f0d0538134f2\\DbConnectionOptions.cs",
+              "ToolTip": "C:\\Users\\Jakub\\AppData\\Local\\Temp\\.vsdbgsrc\\b41adcd98110c327811f21f3ad97362dfc0557c72324c18734a7f0d0538134f2\\DbConnectionOptions.cs[Tylko do odczytu]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b41adcd98110c327811f21f3ad97362dfc0557c72324c18734a7f0d0538134f2\\DbConnectionOptions.cs[Tylko do odczytu]",
+              "ViewState": "AQIAAL4CAAAAAAAAAAAEwOUCAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:55:58.244Z",
+              "EditorCaption": "[Tylko do odczytu]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Helpers\\UserHelper.cs",
+              "RelativeDocumentMoniker": "przychodnia\\Helpers\\UserHelper.cs",
+              "ToolTip": "C:\\Users\\Jakub\\OneDrive\\Pulpit\\testowanie\\przychodnia-g3\\przychodnia\\przychodnia\\Helpers\\UserHelper.cs",
+              "RelativeToolTip": "przychodnia\\Helpers\\UserHelper.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswA4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T16:10:22.143Z",
+              "EditorCaption": ""
             }
           ]
         }

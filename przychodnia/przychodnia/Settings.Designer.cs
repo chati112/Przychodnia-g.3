@@ -22,5 +22,20 @@ namespace przychodnia {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server=tcp:sqldatabase-przychodnia.database.windows.net,1433;Initial Catalog=PRZY" +
+            "CHODNIA;Persist Security Info=False;User ID=sqladmin;Password=SuperAdmin2137#;Mu" +
+            "ltipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connectio" +
+            "n Timeout=30;")]
+        public string dbstring {
+            get {
+                return ((string)(this["dbstring"]));
+            }
+            set {
+                this["dbstring"] = value;
+            }
+        }
     }
 }

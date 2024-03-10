@@ -1,0 +1,7 @@
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia%20g.3\przychodnia\przychodnia\obj\Debug\przychodnia.csproj.AssemblyReference.cache
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia%20g.3\przychodnia\przychodnia\obj\Debug\przychodnia.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia%20g.3\przychodnia\przychodnia\obj\Debug\przychodnia.exe.config
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia%20g.3\przychodnia\przychodnia\obj\Debug\przychodnia.Login.resources
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia%20g.3\przychodnia\przychodnia\obj\Debug\przychodnia.Properties.Resources.resources
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia%20g.3\przychodnia\przychodnia\obj\Debug\przychodnia.csproj.GenerateResource.cache
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia%20g.3\przychodnia\przychodnia\obj\Debug\przychodnia.csproj.CoreCompileInputs.cache
