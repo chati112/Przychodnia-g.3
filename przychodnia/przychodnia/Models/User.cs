@@ -13,7 +13,7 @@ namespace przychodnia.Models
 {
     public  class User
     {
-        public User(int id,string login, string imie, string nazwisko, string miejscowosc, string kodPocztowy, string ulica, string numerPosesji, string numerLokalu, string pESEL, DateTime dataUrodzenia, string plec, string email, string numerTelefonu, string haslo)
+        public User(int id,string login, string imie, string nazwisko, string miejscowosc, string kodPocztowy, string ulica, string numerPosesji, string numerLokalu, string pESEL, DateTime dataUrodzenia, string plec, string email, string numerTelefonu, string haslo, string rola)
         {
             Id = id;
             Login = login;
@@ -30,6 +30,7 @@ namespace przychodnia.Models
             Email = email;
             NumerTelefonu = numerTelefonu;
             Haslo = haslo;
+            Rola = rola;
         }
 
         ///Login, Imie, Nazwisko, Miejscowosc, KodPocztowy, Ulica, NumerPosesji, NumerLokalu, PESEL, DataUrodzenia, Plec, Email, NumerTelefonu, Haslo
@@ -50,13 +51,14 @@ namespace przychodnia.Models
         public string Haslo { get; set; }
         public override String ToString() => Imie + " " + Nazwisko;
 
+        public string Rola { get; set; }
 
         public string FullName() => this.Imie + " " + this.Nazwisko;
 
 
         public static User CreateUser()
         {
-            return new User(0,"", "", "", "", "", "", "", "", "", DateTime.Now, "", "", "", "");  
+            return new User(0,"", "", "", "", "", "", "", "", "", DateTime.Now, "", "", "", "","");  
         }
         public static SqlCommand AddParametrsToSqlCommand(SqlCommand cmd, User user)
         {
@@ -74,8 +76,10 @@ namespace przychodnia.Models
             cmd.Parameters.AddWithValue("@email", user.Email);
             cmd.Parameters.AddWithValue("@numerTelefonu", user.NumerTelefonu);
             cmd.Parameters.AddWithValue("@haslo", user.Haslo);
+            cmd.Parameters.AddWithValue("@rola", user.Rola);
             return cmd;
         }
+
 
     }
 }

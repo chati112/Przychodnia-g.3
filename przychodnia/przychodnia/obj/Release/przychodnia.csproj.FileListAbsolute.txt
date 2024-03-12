@@ -86,8 +86,6 @@ C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia
 C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\bin\Release\System.Threading.Tasks.Extensions.xml
 C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Release\przychodnia.csproj.AssemblyReference.cache
-C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Release\przychodnia.csproj.SuggestedBindingRedirects.cache
-C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Release\przychodnia.exe.config
 C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Release\przychodnia.Login.resources
 C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Release\przychodnia.Properties.Resources.resources
 C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Release\przychodnia.csproj.GenerateResource.cache
@@ -95,3 +93,8 @@ C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia
 C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Release\przychod.A3DCC6B9.Up2Date
 C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Release\przychodnia.exe
 C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Release\przychodnia.pdb
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\bin\Release\BCrypt.Net-Next.dll
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\bin\Release\BCrypt.Net-Next.xml
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Release\przychodnia.Forms.Login.RecoverPasswordForm.resources
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Release\przychodnia.Forms.MainForm.MainForm.resources
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Release\przychodnia.Forms.AdminForm.AdminForm.resources

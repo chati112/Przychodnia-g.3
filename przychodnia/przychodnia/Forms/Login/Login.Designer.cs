@@ -30,11 +30,12 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonLogin = new System.Windows.Forms.Button();
             this.textBoxLogin = new System.Windows.Forms.TextBox();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.labelErrorMessage = new System.Windows.Forms.Label();
+            this.buttonRecoverPassword = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,15 +56,15 @@
             this.dataGridView1.Size = new System.Drawing.Size(718, 306);
             this.dataGridView1.TabIndex = 1;
             // 
-            // button1
+            // buttonLogin
             // 
-            this.button1.Location = new System.Drawing.Point(255, 222);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonLogin.Location = new System.Drawing.Point(246, 219);
+            this.buttonLogin.Name = "buttonLogin";
+            this.buttonLogin.Size = new System.Drawing.Size(75, 23);
+            this.buttonLogin.TabIndex = 2;
+            this.buttonLogin.Text = "Zaloguj";
+            this.buttonLogin.UseVisualStyleBackColor = true;
+            this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
             // 
             // textBoxLogin
             // 
@@ -91,22 +92,33 @@
             // labelErrorMessage
             // 
             this.labelErrorMessage.AutoSize = true;
-            this.labelErrorMessage.Location = new System.Drawing.Point(180, 278);
+            this.labelErrorMessage.Location = new System.Drawing.Point(130, 338);
             this.labelErrorMessage.Name = "labelErrorMessage";
             this.labelErrorMessage.Size = new System.Drawing.Size(35, 13);
             this.labelErrorMessage.TabIndex = 6;
             this.labelErrorMessage.Text = "label3";
+            // 
+            // buttonRecoverPassword
+            // 
+            this.buttonRecoverPassword.Location = new System.Drawing.Point(209, 267);
+            this.buttonRecoverPassword.Name = "buttonRecoverPassword";
+            this.buttonRecoverPassword.Size = new System.Drawing.Size(150, 23);
+            this.buttonRecoverPassword.TabIndex = 7;
+            this.buttonRecoverPassword.Text = "Odzyskaj hasło";
+            this.buttonRecoverPassword.UseVisualStyleBackColor = true;
+            this.buttonRecoverPassword.Click += new System.EventHandler(this.buttonRecoverPassword_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1329, 466);
+            this.Controls.Add(this.buttonRecoverPassword);
             this.Controls.Add(this.labelErrorMessage);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.textBoxLogin);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonLogin);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Name = "Login";
@@ -122,11 +134,12 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonLogin;
         private System.Windows.Forms.TextBox textBoxLogin;
         private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelErrorMessage;
+        private System.Windows.Forms.Button buttonRecoverPassword;
     }
 }
 

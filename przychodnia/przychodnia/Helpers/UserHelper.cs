@@ -12,9 +12,11 @@ namespace przychodnia.Helpers
 {
     public static class UserHelper
     {
+        public static User LoggedUser { get; set; }
+
         public static List<User> GetUsersListFromDataTable(DataTable dt)
         {
-            //Login, Imie, Nazwisko, Miejscowosc, KodPocztowy, Ulica, NumerPosesji, NumerLokalu, PESEL, DataUrodzenia, Plec, Email, NumerTelefonu, Haslo
+            //Login, Imie, Nazwisko, Miejscowosc, KodPocztowy, Ulica, NumerPosesji, NumerLokalu, PESEL, DataUrodzenia, Plec, Email, NumerTelefonu, Haslo, Rola
             List<User> users = new List<User>();
             foreach (DataRow row in dt.Rows)
             {
@@ -34,7 +36,8 @@ namespace przychodnia.Helpers
                 string email = row["email"].ToString();
                 string numerTelefonu = row["numerTelefonu"].ToString();
                 string haslo = row["haslo"].ToString();
-                User user = new User(id, login, imie, nazwisko, miejscowosc, kodPocztowy, ulica, numerPosesji, numerLokalu, pesel, dataUrodzenia, plec, email, numerTelefonu, haslo);
+                string rola = row["rola"].ToString();
+                User user = new User(id, login, imie, nazwisko, miejscowosc, kodPocztowy, ulica, numerPosesji, numerLokalu, pesel, dataUrodzenia, plec, email, numerTelefonu, haslo, rola);
                 users.Add(user);
             }
 

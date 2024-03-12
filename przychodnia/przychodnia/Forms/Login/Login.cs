@@ -1,4 +1,7 @@
-﻿using przychodnia.Helpers;
+﻿using przychodnia.Forms.AdminForm;
+using przychodnia.Forms.Login;
+using przychodnia.Forms.MainForm;
+using przychodnia.Helpers;
 using przychodnia.Models;
 using przychodnia.Service;
 using System;
@@ -38,16 +41,45 @@ namespace przychodnia
         {
             string login = textBoxLogin.Text;
             string password = textBoxPassword.Text;
-            List<User> users = UserService.Login(login, password);
-            label2.Text = users.Count.ToString();
+            var user = UserService.Login(login, password);
+
+            if (user != null)
+            {
+                UserHelper.LoggedUser = user;
+                this.Hide(); // Ukryj LoginForm
+
+                if (user.Rola=="Admin")
+                {
+                    AdminForm adminForm = new AdminForm();
+                    adminForm.FormClosed += (s, args) => this.Show();
+                    textBoxLogin.Text = "";
+                    textBoxPassword.Text = "";
+                    adminForm.Show(); //przejście do panelu admina
+                }
+                else
+                {
+                    MainForm mainForm = new MainForm();
+                    mainForm.FormClosed += (s, args) => this.Show();
+                    textBoxLogin.Text = "";
+                    textBoxPassword.Text = "";
+                    UserHelper.LoggedUser = user;
+                    mainForm.Show(); //przejście do panelu użytkownika
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nieprawidłowy login lub hasło.");
+                this.Show(); 
+            }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        private void buttonRecoverPassword_Click(object sender, EventArgs e)
         {
-            string login = textBoxLogin.Text;
-            string password = textBoxPassword.Text;
-            List<User> users = UserService.Login(login, password);
-            label2.Text = users.Count.ToString();
+            RecoverPasswordForm recoverForm = new RecoverPasswordForm();
+
+            // Wyświetlanie formularza odzyskiwania hasła
+            recoverForm.ShowDialog();
         }
     }
 }

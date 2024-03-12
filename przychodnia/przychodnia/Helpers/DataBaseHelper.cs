@@ -53,7 +53,7 @@ namespace przychodnia.Helpers
             return dt;
         }
 
-        public static bool ExecuteNonQuery(string query)
+        public static bool ExecuteNonQuery(string query, Dictionary<string, object> parameters = null)
         {
             bool result = true;
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -62,6 +62,15 @@ namespace przychodnia.Helpers
 
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
+                    // Jeśli istnieją parametry, dodaj je do zapytania
+                    if (parameters != null)
+                    {
+                        foreach (var param in parameters)
+                        {
+                            command.Parameters.AddWithValue(param.Key, param.Value);
+                        }
+                    }
+
                     try
                     {
                         command.ExecuteNonQuery();
@@ -80,6 +89,7 @@ namespace przychodnia.Helpers
             }
             return result;
         }
+
 
         public static bool ExecuteNonQueryCommand(SqlCommand command)
         {
