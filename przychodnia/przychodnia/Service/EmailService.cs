@@ -15,9 +15,9 @@ namespace przychodnia.Service
             
             string smtpHost = "live.smtp.mailtrap.io";
             int smtpPort = 587;
-            string smtpUsername = "api";
-            string smtpPassword = "05d7f33be25b41fdd0adbf9e71cde811";
-            string senderEmail = "essa@ellstore.pl";
+            string smtpUsername = " ";
+            string smtpPassword = " ";
+            string senderEmail = " ";
             string senderName = "Clinc EU";
 
             using (SmtpClient client = new SmtpClient(smtpHost, smtpPort))
