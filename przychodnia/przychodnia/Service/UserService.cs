@@ -28,6 +28,7 @@ namespace przychodnia.Service
             {
                 // Zakładając, że kolumna roli nazywa się "Rola" w Twojej bazie danych
                 var row = data.Rows[0];
+                bool requirePasswordChange = row["RequirePasswordChange"] != DBNull.Value && Convert.ToBoolean(row["RequirePasswordChange"]);
                 return new User(
                     Convert.ToInt32(row["Id"]),
                     row["Login"].ToString(),
@@ -44,8 +45,10 @@ namespace przychodnia.Service
                     row["Email"].ToString(),
                     row["NumerTelefonu"].ToString(),
                     row["Haslo"].ToString(),
-                    row["Rola"].ToString() // Dodanie roli
-                );
+                    row["Rola"].ToString(),
+                    requirePasswordChange
+
+                        );
             }
             return null; // Jeśli nie znaleziono użytkownika
         }
@@ -60,7 +63,7 @@ namespace przychodnia.Service
 
                 //string hashedPassword = PasswordHelper.HashPassword(newPassword);
 
-                string updateQuery = "UPDATE tbl_Uzytkownicy SET Haslo = @Haslo WHERE Id = @Id AND Email = @Email";
+                string updateQuery = "UPDATE tbl_Uzytkownicy SET Haslo = @Haslo, RequirePasswordChange = 1 WHERE Id = @Id AND Email = @Email";
                 Dictionary<string, object> parameters = new Dictionary<string, object>
         {
             { "@Haslo", newPassword }, //hashedPassword jeśli chcemy hashowane hasło
@@ -79,6 +82,23 @@ namespace przychodnia.Service
             }
             return false;
         }
+
+        public static bool ChangeUserPassword(int userId, string newPassword)
+        {
+            // Bezpośrednie użycie nowego hasła bez hashowania
+            string passwordToUpdate = newPassword;
+
+            // Aktualizacja hasła w bazie danych
+            string query = "UPDATE tbl_Uzytkownicy SET Haslo = @Haslo, RequirePasswordChange = 0 WHERE Id = @Id";
+            Dictionary<string, object> parameters = new Dictionary<string, object>
+        {
+            { "@Haslo", passwordToUpdate },
+            { "@Id", userId }
+        };
+
+            return DataBaseHelper.ExecuteNonQuery(query, parameters);
+        }
+
 
     }
 

@@ -37,11 +37,24 @@ namespace przychodnia.Helpers
                 string numerTelefonu = row["numerTelefonu"].ToString();
                 string haslo = row["haslo"].ToString();
                 string rola = row["rola"].ToString();
-                User user = new User(id, login, imie, nazwisko, miejscowosc, kodPocztowy, ulica, numerPosesji, numerLokalu, pesel, dataUrodzenia, plec, email, numerTelefonu, haslo, rola);
+                bool requirePasswordChange = Convert.ToBoolean(row["requirePasswordChange"]);
+                User user = new User(id, login, imie, nazwisko, miejscowosc, kodPocztowy, ulica, numerPosesji, numerLokalu, pesel, dataUrodzenia, plec, email, numerTelefonu, haslo, rola, requirePasswordChange);
                 users.Add(user);
             }
 
             return users;
+        }
+
+        public static List<User> GetUsersList()
+        {
+            // Przygotowanie zapytania SQL do pobrania wszystkich użytkowników
+            string query = "SELECT * FROM tbl_Uzytkownicy";
+
+            // Używanie istniejącej metody ExecuteQuery z DataBaseHelper do wykonania zapytania i otrzymania wyników
+            DataTable dt = DataBaseHelper.ExecuteQuery(query);
+
+            // Używanie istniejącej metody do przekształcenia DataTable na listę użytkowników
+            return GetUsersListFromDataTable(dt);
         }
     }
 }

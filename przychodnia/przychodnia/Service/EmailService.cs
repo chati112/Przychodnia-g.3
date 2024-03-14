@@ -8,24 +8,33 @@ using System.Threading.Tasks;
 
 namespace przychodnia.Service
 {
-    internal class EmailService
+    public class EmailService
     {
         public static void SendNewPasswordEmail(string recipientEmail, string newPassword)
         {
-            string smtpHost = "smtp.gmail.com"; // Adres serwera SMTP
-            int smtpPort = 587; // Port serwera SMTP 
-            string smtpUsername = "Przychodnia2137@gmail.com"; //  e-mail
-            string smtpPassword = "SuperAdmin2137"; // Hasło do  e-mail
+            
+            string smtpHost = "live.smtp.mailtrap.io";
+            int smtpPort = 587;
+            string smtpUsername = "api";
+            string smtpPassword = "05d7f33be25b41fdd0adbf9e71cde811";
+            string senderEmail = "essa@ellstore.pl";
+            string senderName = "Clinc EU";
 
             using (SmtpClient client = new SmtpClient(smtpHost, smtpPort))
             {
-                client.EnableSsl = true; // Włączenie SSL
+                client.EnableSsl = true; 
                 client.Credentials = new NetworkCredential(smtpUsername, smtpPassword);
 
-                using (MailMessage message = new MailMessage(smtpUsername, recipientEmail))
+                using (MailMessage message = new MailMessage())
                 {
-                    message.Subject = "Twoje nowe hasło";
-                    message.Body = $"Twoje nowe hasło to: {newPassword}\nZalecamy zmianę hasła po zalogowaniu.";
+                    
+                    message.From = new MailAddress(senderEmail, senderName);
+                    
+                    message.To.Add(new MailAddress(recipientEmail));
+                    
+                    message.Subject = "Twoje nowe hasło w przychodni ";
+                    // Treść wiadomości
+                    message.Body = $"Twoje nowe hasło to: {newPassword}\nPrzy próbie zalogowania konieczne będzie ustawione nowego hasła dla Twojego konta ;)";
 
                     try
                     {

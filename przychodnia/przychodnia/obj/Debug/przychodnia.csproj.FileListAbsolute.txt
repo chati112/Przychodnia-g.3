@@ -53,3 +53,5 @@ C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia
 C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Debug\przychod.A3DCC6B9.Up2Date
 C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Debug\przychodnia.exe
 C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Debug\przychodnia.pdb
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Debug\przychodnia.Service.FormTEstowyDoMaili.resources
+C:\Users\Jakub\OneDrive\Pulpit\testowanie\przychodnia-g3\przychodnia\przychodnia\obj\Debug\przychodnia.Forms.MainForm.ChangePasswordForm.resources

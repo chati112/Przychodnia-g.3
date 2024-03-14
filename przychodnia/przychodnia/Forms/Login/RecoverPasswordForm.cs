@@ -19,44 +19,45 @@ namespace przychodnia.Forms.Login
             InitializeComponent();
         }
 
-        //private void buttonSendRequest_Click(object sender, EventArgs e)
+        //private void buttonsendrequest_click(object sender, eventargs e)
         //{
-        //    string userId = textBoxUserId.Text;
-        //    string email = textBoxEmail.Text;
+        //    string userid = textboxuserid.text;
+        //    string email = textboxemail.text;
 
-        //    DataTable data = UserService.GetUsers($"Login = '{userId}' AND Email = '{email}'");
-        //    if (data.Rows.Count == 1)
+        //    datatable data = userservice.getusers($"login = '{userid}' and email = '{email}'");
+        //    if (data.rows.count == 1)
         //    {
-               
-        //        // Generowanie nowego hasła
-        //        string newPassword = PasswordHelper.GenerateNewPassword(); // Implementuj tę funkcję
-        //        string hashedPassword = HashPassword(newPassword); // Implementuj tę funkcję
 
-        //        // Aktualizacja hasła w bazie danych
-        //        UserService.UpdateUserPassword(userId, hashedPassword);
+        //        generowanie nowego hasła
+        //        string newpassword = passwordhelper.generatenewpassword(); // implementuj tę funkcję
+        //        string hashedpassword = hashpassword(newpassword); // implementuj tę funkcję
 
-        //        // Wysłanie nowego hasła na e-mail
-        //        SendPasswordEmail(email, newPassword); // Implementuj tę funkcję
+        //        aktualizacja hasła w bazie danych
+        //        userservice.updateuserpassword(userid, hashedpassword);
 
-        //        MessageBox.Show("Nowe hasło zostało wysłane.");
+        //        wysłanie nowego hasła na e - mail
+        //        sendpasswordemail(email, newpassword); // implementuj tę funkcję
+
+        //        messagebox.show("nowe hasło zostało wysłane.");
         //    }
         //    else
         //    {
-        //        MessageBox.Show("Nie można zidentyfikować użytkownika.");
+        //        messagebox.show("nie można zidentyfikować użytkownika.");
         //    }
         //}
 
-      
+
 
         private void buttonSendRequest_Click(object sender, EventArgs e)
         {
-            string Id = numericUpDownId.Text;
+            string id = numericUpDownId.Value.ToString(); // Załóżmy, że Id jest typu numericUpDown
             string email = textBoxEmail.Text;
 
-            bool result = UserService.ResetUserPassword(Id, email);
+            // Resetowanie hasła i wysyłanie nowego hasła
+            bool result = UserService.ResetUserPassword(id, email);
             if (result)
             {
-                MessageBox.Show("Tymczasowe hasło zostało wysłane na twój adres e-mail.");
+                MessageBox.Show("Tymczasowe hasło zostało wysłane na Twój adres e-mail.");
             }
             else
             {

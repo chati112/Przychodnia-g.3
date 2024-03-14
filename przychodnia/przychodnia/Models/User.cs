@@ -13,7 +13,7 @@ namespace przychodnia.Models
 {
     public  class User
     {
-        public User(int id,string login, string imie, string nazwisko, string miejscowosc, string kodPocztowy, string ulica, string numerPosesji, string numerLokalu, string pESEL, DateTime dataUrodzenia, string plec, string email, string numerTelefonu, string haslo, string rola)
+        public User(int id,string login, string imie, string nazwisko, string miejscowosc, string kodPocztowy, string ulica, string numerPosesji, string numerLokalu, string pESEL, DateTime dataUrodzenia, string plec, string email, string numerTelefonu, string haslo, string rola, bool requirePasswordChange)
         {
             Id = id;
             Login = login;
@@ -31,6 +31,7 @@ namespace przychodnia.Models
             NumerTelefonu = numerTelefonu;
             Haslo = haslo;
             Rola = rola;
+            RequirePasswordChange = requirePasswordChange;
         }
 
         ///Login, Imie, Nazwisko, Miejscowosc, KodPocztowy, Ulica, NumerPosesji, NumerLokalu, PESEL, DataUrodzenia, Plec, Email, NumerTelefonu, Haslo
@@ -55,10 +56,12 @@ namespace przychodnia.Models
 
         public string FullName() => this.Imie + " " + this.Nazwisko;
 
+        public bool RequirePasswordChange { get; set; }
+
 
         public static User CreateUser()
         {
-            return new User(0,"", "", "", "", "", "", "", "", "", DateTime.Now, "", "", "", "","");  
+            return new User(0, "", "", "", "", "", "", "", "", "", DateTime.Now, "", "", "", "", "", false );
         }
         public static SqlCommand AddParametrsToSqlCommand(SqlCommand cmd, User user)
         {
