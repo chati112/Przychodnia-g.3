@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="przychodnia" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="dbstring" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=tcp:sqldatabase-przychodnia.database.windows.net,1433;Initial Catalog=PRZYCHODNIA;Persist Security Info=False;User ID=sqladmin;Password=SuperAdmin2137#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
